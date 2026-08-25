@@ -66,6 +66,9 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 4. Configure Clerk in your app and set up the correct sign-in/sign-up URLs.
 
+	- Ensure `NEXT_PUBLIC_APP_URL` is set in your `.env.local` (for example `http://localhost:3000`).
+	- In the Clerk dashboard, add this URL to the list of allowed Redirect URLs so Clerk can redirect users back to your app after authentication.
+
 5. Run the app locally
 
 ```bash

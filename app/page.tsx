@@ -19,7 +19,7 @@ export default function Home() {
                 Sign Up
               </Link>
               <Link
-                href="https://blessed-shrimp-45.accounts.dev/sign-in"
+                href="/sign-in"
                 className="btn btn-outline btn-secondary btn-lg"
               >
                 Sign In
